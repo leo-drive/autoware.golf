@@ -33,6 +33,10 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
+  universe/external/autoware_bag_recorder:
+    type: git
+    url: https://github.com/leo-drive/autoware_bag_recorder.git
+    version: main
   universe/external/morai_msgs:
     type: git
     url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
