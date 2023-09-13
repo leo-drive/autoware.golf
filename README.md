@@ -1,3 +1,11 @@
+# Additional installation steps
+
+- Register & install arena_sdk from https://thinklucid.com/downloads-hub/
+  - Extract to a somehow permanent place before installing
+- `cd /home/mfc/projects/golf/src/sensor_component/external/rslidar/rslidar_sdk`
+  - `git submodule update --recursive --init`
+  - `git pull -v --recurse-submodules`
+
 # Autoware - the world's leading open-source software project for autonomous driving
 
 ![Autoware_RViz](https://user-images.githubusercontent.com/63835446/158918717-58d6deaf-93fb-47f9-891d-e242b02cba7b.png)
