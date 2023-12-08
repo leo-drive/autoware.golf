@@ -1,0 +1,129 @@
+repositories:
+  # core
+  core/autoware_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: main
+  core/autoware_adapi_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+    version: main
+  core/autoware_common:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_common.git
+    version: main
+  core/autoware.core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.core.git
+    version: main
+  core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
+    type: git
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: tier4/main
+  # universe
+  universe/autoware.universe:
+    type: git
+    url: https://github.com/leo-drive/autoware.universe.git
+    version: 23-12-08/golf
+  universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
+    type: git
+    url: https://github.com/tier4/tier4_ad_api_adaptor.git
+    version: tier4/universe
+  universe/external/tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: tier4/universe
+  universe/external/autoware_bag_recorder:
+    type: git
+    url: https://github.com/leo-drive/autoware_bag_recorder.git
+    version: main
+  universe/external/morai_msgs:
+    type: git
+    url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
+    version: main
+  universe/external/muSSP:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: tier4/main
+  universe/external/ndt_omp:
+    type: git
+    url: https://github.com/tier4/ndt_omp.git
+    version: tier4/main
+  universe/external/pointcloud_to_laserscan:
+    type: git
+    url: https://github.com/tier4/pointcloud_to_laserscan.git
+    version: tier4/main
+  universe/external/rviz_2d_overlay_plugins:
+    type: git
+    url: https://github.com/leo-drive/rviz_2d_overlay_plugins.git
+    version: golf
+  universe/external/eagleye:
+    type: git
+    url: https://github.com/MapIV/eagleye.git
+    version: autoware-main
+  universe/external/rtklib_ros_bridge:
+    type: git
+    url: https://github.com/MapIV/rtklib_ros_bridge.git
+    version: ros2-v0.1.0
+  universe/external/llh_converter:
+    type: git
+    url: https://github.com/MapIV/llh_converter.git
+    version: ros2
+  # launcher
+  launcher/autoware_launch:
+    type: git
+    url: https://github.com/leo-drive/autoware_launch.git
+    version: 23-12-08/golf
+  # sensor_component
+  sensor_component/external/sensor_component_description:
+    type: git
+    url: https://github.com/tier4/sensor_component_description.git
+    version: main
+  sensor_component/external/sbg_ros2_driver:
+    type: git
+    url: https://github.com/leo-drive/sbg_ros2_driver.git
+    version: golf
+  sensor_component/external/arena_camera:
+    type: git
+    url: https://github.com/leo-drive/arena_camera.git
+    version: golf
+  sensor_component/external/awf_velodyne:
+    type: git
+    url: https://github.com/leo-drive/awf_velodyne.git
+    version: golf
+  sensor_component/external/rslidar/rslidar_sdk:
+    type: git
+    url: https://github.com/leo-drive/rslidar_sdk.git
+    version: RobiOne
+  sensor_component/external/rslidar/rslidar_msg:
+    type: git
+    url: https://github.com/RoboSense-LiDAR/rslidar_msg.git
+    version: master
+  # sensor_kit
+  sensor_kit/golf_sensor_kit_launch:
+    type: git
+    url: https://github.com/leo-drive/golf_sensor_kit_launch.git
+    version: 23-12-08/golf
+  # vehicle
+  vehicle/golf_vehicle_launch:
+    type: git
+    url: https://github.com/leo-drive/golf_vehicle_launch.git
+    version: 23-12-08/golf
+  vehicle/external/pacmod_interface:
+    type: git
+    url: https://github.com/tier4/pacmod_interface.git
+    version: main
+  vehicle/external/leo_vehicle_interface:
+    type: git
+    url: https://github.com/leo-drive/leo_vehicle_interface.git
+    version: dev/plugin_model
+  # param
+  param/autoware_individual_params:
+    type: git
+    url: https://github.com/leo-drive/autoware_individual_params.git
+    version: golf
+  # middleware
+  middleware/external/heaphook:
+    type: git
+    url: https://github.com/tier4/heaphook.git
+    version: main
