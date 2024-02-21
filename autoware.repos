@@ -23,8 +23,8 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: main
+    url: https://github.com/leo-drive/autoware.universe.golf.git
+    version: golf-v2024.03
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -33,6 +33,10 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
+  universe/external/rviz_2d_overlay_plugins:
+    type: git
+    url: https://github.com/leo-drive/rviz_2d_overlay_plugins.git
+    version: golf_backup
   universe/external/morai_msgs:
     type: git
     url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
@@ -68,45 +72,58 @@ repositories:
   # launcher
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: main
+    url: https://github.com/leo-drive/autoware_launch.golf.git
+    version: golf-v2024.03
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
     version: main
-  sensor_component/external/tamagawa_imu_driver:
+  sensor_component/external/sbg_ros2_driver:
     type: git
-    url: https://github.com/tier4/tamagawa_imu_driver.git
-    version: ros2
+    url: https://github.com/leo-drive/sbg_ros2_driver.git
+    version: golf
+  sensor_component/external/arena_camera:
+    type: git
+    url: https://github.com/leo-drive/arena_camera.git
+    version: golf
   sensor_component/external/nebula:
     type: git
-    url: https://github.com/tier4/nebula.git
-    version: main
+    url: https://github.com/leo-drive/nebula.git
+    version: golf-v2024.03
   sensor_component/external/transport_drivers:
     type: git
     url: https://github.com/MapIV/transport_drivers.git
     version: boost
+  sensor_component/external/ntrip_client:
+    type: git
+    url: https://github.com/leo-drive/ntrip_client_ros_driver.git
+    version: main
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/golf_sensor_kit_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
+    url: https://github.com/leo-drive/golf_sensor_kit_launch.git
+    version: golf
   # vehicle
-  vehicle/sample_vehicle_launch:
+  vehicle/golf_vehicle_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+    url: https://github.com/leo-drive/golf_vehicle_launch.git
     version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: main
+  vehicle/external/leo_vehicle_interface:
+    type: git
+    url: https://github.com/leo-drive/leo_vehicle_interface.git
+    version: dev/plugin_model
   # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
+    url: https://github.com/leo-drive/golf_individual_params.git
+    version: golf-backup
+  # middleware
+  middleware/external/heaphook:
+    type: git
+    url: https://github.com/tier4/heaphook.git
     version: main
