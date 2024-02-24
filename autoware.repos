@@ -86,7 +86,7 @@ repositories:
   sensor_component/external/arena_camera:
     type: git
     url: https://github.com/leo-drive/arena_camera.git
-    version: golf
+    version: master
   sensor_component/external/nebula:
     type: git
     url: https://github.com/leo-drive/nebula.git
