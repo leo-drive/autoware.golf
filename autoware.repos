@@ -2,23 +2,27 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 99891401473b5740e640f5a0cc0412c0984b8e0b
+    version: 9818cdb6a754fbbeb862d02a72371e11e50f7d92
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: ed9bd6535347214a8139df32f6b321265067690e
+    version: 9bb74bd5006f7e3901ecd0368c19c30d047482f4
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: b92f64f582f498dee40ecc6a6761c8b79cda37c0
+    version: cf44343ae17205a4d684e2b71fbf51041c0bef3e
   core/autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-    version: f37769d806fcdec7344da14efe1c6d64f0d7c8db
+    version: 4537a08fdb679bc5f0f1b7fd0f5e54ca5bd3f029
+  core/autoware_lanelet2_extension:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
+    version: 68cfa3053a16a81ab7352acae5414698150ac56e
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 8e657ab99595ec306b131fa18813cf0737dcc9f4
+    version: 4c3a1939520cd8ac9d05b0addf7286a0534de024
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
@@ -26,7 +30,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/leo-drive/autoware_launch.golf.git
-    version: 9a953415e9e10b95b00b46445d7a49f530bafae4
+    version: 2a13d2e4d14d388d3ba5c47917f1fd8bca67575f
   param/autoware_individual_params:
     type: git
     url: https://github.com/leo-drive/golf_individual_params.git
@@ -38,7 +42,7 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
-    version: 0ae9198d2a06a5722380e3d918e22416991394f3
+    version: d9aaefc9a4c06f6dae86cd7ef22f6353f1379e4f
   sensor_component/external/sbg_ros2_driver:
     type: git
     url: https://github.com/leo-drive/sbg_ros2_driver.git
@@ -66,11 +70,11 @@ repositories:
   sensor_kit/golf_sensor_kit_launch:
     type: git
     url: https://github.com/leo-drive/golf_sensor_kit_launch.git
-    version: 590bd5a0a842d93ab4fc815b10d1bf75eeff02ce
+    version: 6be4f48b0d4ac4ffe8281d24b3dab44a09c383ad
   universe/autoware.universe:
     type: git
     url: git@github.com:leo-drive/autoware.universe.golf.git
-    version: 6e4e5206fc62ed35253059a13fa717f8c7264999
+    version: 34b19fb494e567d756b715fcb2353f3ef9165f73
   universe/external/ament_cmake:
     type: git
     url: https://github.com/autowarefoundation/ament_cmake.git
@@ -83,6 +87,14 @@ repositories:
     type: git
     url: https://github.com/tier4/glog.git
     version: ea36766fdc2ac8e8c8e3ac988ae69acd6d09bb30
+  universe/external/leodrive_baggin:
+    type: git
+    url: git@github.com:leo-drive/leodrive_baggin.git
+    version: de7c347b8ecac396c1f68b8ff673055a45194ce2
+  universe/external/leodrive_baggin_rviz2:
+    type: git
+    url: git@github.com:leo-drive/leodrive_baggin_rviz2.git
+    version: ba2edec13a93510d7f55bc5cb939f9285f381d14
   universe/external/llh_converter:
     type: git
     url: https://github.com/MapIV/llh_converter.git
@@ -110,19 +122,19 @@ repositories:
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: 6c7980fb45e2a1b84e9e767bfc3f861de484d66b
+    version: c2f6a89413feb8e57581b96220655ce29c0bb34b
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: 3c13a40151c64ee2337f021f093bf341b3acc60f
+    version: 5cf56e7c1f1156c0067108a83806a22e42120d1b
   vehicle/external/leo_vehicle_interface:
     type: git
     url: https://github.com/leo-drive/leo_vehicle_interface.git
-    version: bdf6742a4d8079c3980904491676afb63eb346d7
+    version: 4fc1c8be5a8333c9f1368c98d8dd3dbc0053b2c7
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
-    version: e9e28326dcd1c6325e2468afec0b3ce9fc8eac78
+    version: 329ebfdd2e59ae68b0bb4d82c3733757443efc79
   vehicle/golf_vehicle_launch:
     type: git
     url: https://github.com/leo-drive/golf_vehicle_launch.git
