@@ -30,7 +30,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/leo-drive/autoware_launch.golf.git
-    version: 0d9df0bd46788de9442667ac0daa4fb0ae63e213
+    version: 987ad4adb380cc23b26788c3ea03c6101efe8deb
   param/autoware_individual_params:
     type: git
     url: https://github.com/leo-drive/golf_individual_params.git
@@ -74,11 +74,11 @@ repositories:
   sensor_kit/golf_sensor_kit_launch:
     type: git
     url: https://github.com/leo-drive/golf_sensor_kit_launch.git
-    version: 1fa7bfd1ccfd8b5e6388b5833f858749769b37be
+    version: 08c82d3d4554cc0d700f70b6566cd0c00dd91d12
   universe/autoware.universe:
     type: git
     url: git@github.com:leo-drive/autoware.universe.golf.git
-    version: 6fb6e22d16f6d750f6c9983a730b1bf9ac95aeb0
+    version: 6e3e4c88dd56141ab45b88d72de5105e3a22b82d
   universe/external/ament_cmake:
     type: git
     url: https://github.com/autowarefoundation/ament_cmake.git
