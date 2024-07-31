@@ -30,11 +30,11 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/leo-drive/autoware_launch.golf.git
-    version: 987ad4adb380cc23b26788c3ea03c6101efe8deb
+    version: 25d28ac7fc51e46327a1a8f73bf8c029092414d0
   param/autoware_individual_params:
     type: git
     url: https://github.com/leo-drive/golf_individual_params.git
-    version: 0e9d533d1e464a873291e198b66aa458bf8d28b6
+    version: f530dde50f848f427f3eaf9919150030c928e3bb
   sensor_component/external/arena_camera:
     type: git
     url: https://github.com/leo-drive/arena_camera.git
@@ -78,7 +78,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: git@github.com:leo-drive/autoware.universe.golf.git
-    version: 6e3e4c88dd56141ab45b88d72de5105e3a22b82d
+    version: f842eb6fb286370044d03abed35644b9700af674
   universe/external/ament_cmake:
     type: git
     url: https://github.com/autowarefoundation/ament_cmake.git
