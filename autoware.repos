@@ -2,7 +2,7 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 9818cdb6a754fbbeb862d02a72371e11e50f7d92
+    version: d02c63cc555046f6a3d1feb44fdb94c780c3753c
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -18,11 +18,11 @@ repositories:
   core/autoware_lanelet2_extension:
     type: git
     url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-    version: 68cfa3053a16a81ab7352acae5414698150ac56e
+    version: 1d3219aae488f21a491553d278296849732fc8f6
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 4c3a1939520cd8ac9d05b0addf7286a0534de024
+    version: f3ee114e1f3bf66a4df96d7dbfa209903c9cb75a
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
@@ -30,7 +30,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/leo-drive/autoware_launch.golf.git
-    version: 25d28ac7fc51e46327a1a8f73bf8c029092414d0
+    version: c7c52ac4b04cec9029e1490133b9516103785f2b
   param/autoware_individual_params:
     type: git
     url: https://github.com/leo-drive/golf_individual_params.git
@@ -61,8 +61,8 @@ repositories:
     version: de4bf6be79aa2968cf2f62e0ebe1ff8a5797e6ad
   sensor_component/external/transport_drivers:
     type: git
-    url: https://github.com/leo-drive/transport_drivers.git
-    version: e7e25ed52b58b3556fa8b0f75a87f7c5d42fbef1
+    url: https://github.com/mojomex/transport_drivers.git
+    version: abf8aa8e171f33e0acd6d845c3d795192c964e9c
   sensor_kit/awsim_labs_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
@@ -74,11 +74,11 @@ repositories:
   sensor_kit/golf_sensor_kit_launch:
     type: git
     url: https://github.com/leo-drive/golf_sensor_kit_launch.git
-    version: 08c82d3d4554cc0d700f70b6566cd0c00dd91d12
+    version: ed4e9393715e19fe3004aaeef65eeaa92428cd29
   universe/autoware.universe:
     type: git
     url: git@github.com:leo-drive/autoware.universe.golf.git
-    version: f842eb6fb286370044d03abed35644b9700af674
+    version: 986f5ead87b95f233eda0ac1a78f45ba65530971
   universe/external/ament_cmake:
     type: git
     url: https://github.com/autowarefoundation/ament_cmake.git
@@ -114,7 +114,7 @@ repositories:
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: ef654bdb1a3fe0bae6f3247b4959e230e63ba429
+    version: e32ec1b9a3b887cc86e5559686184576d90e0efb
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
@@ -130,7 +130,7 @@ repositories:
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: 5cf56e7c1f1156c0067108a83806a22e42120d1b
+    version: 12504f69041fb8c895ffb5625da63be2ea69da4b
   vehicle/external/leo_vehicle_interface:
     type: git
     url: https://github.com/leo-drive/leo_vehicle_interface.git
